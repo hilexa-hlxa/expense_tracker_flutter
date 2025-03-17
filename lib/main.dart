@@ -5,6 +5,8 @@ void main() {
 }
 
 class ExpenseTrackerApp extends StatelessWidget {
+  const ExpenseTrackerApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +17,10 @@ class ExpenseTrackerApp extends StatelessWidget {
 }
 
 class ExpenseTrackerHome extends StatefulWidget {
+  const ExpenseTrackerHome({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _ExpenseTrackerHomeState createState() => _ExpenseTrackerHomeState();
 }
 
